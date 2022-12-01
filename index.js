@@ -24,7 +24,7 @@ let input = ""
 
 
 convertBtn.addEventListener("click", function(){
-    input = Number(inputEl.value)
+    input = inputEl.value
     lengthEl.innerText = generateConversion("feet")
     volumeEl.innerText = generateConversion("gallon")
     massEl.innerText = generateConversion("pound")
